@@ -1,14 +1,14 @@
 {
   "name": "ng-circle-progress",
   "version": "2.0.0",
-  "main": "dist/ng-circle-progress/ng-circle-progress.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
