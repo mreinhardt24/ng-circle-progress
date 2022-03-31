@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preinstall": "npm run build"
   },
   "private": true,
   "dependencies": {
@@ -48,5 +49,8 @@
     "ts-node": "~10.7.0",
     "tslint": "~6.1.0",
     "typescript": "~4.6.2"
-  }
+  },
+  "files": [
+    "dist/ng-circle-progress"
+  ]
 }
