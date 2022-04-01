@@ -12,20 +12,19 @@ export class NgCircleProgressModule {
         };
     }
 }
-NgCircleProgressModule.ɵfac = function NgCircleProgressModule_Factory(t) { return new (t || NgCircleProgressModule)(); };
-NgCircleProgressModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgCircleProgressModule });
-NgCircleProgressModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [[
+NgCircleProgressModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.0", ngImport: i0, type: NgCircleProgressModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+NgCircleProgressModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.3.0", ngImport: i0, type: NgCircleProgressModule, declarations: [CircleProgressComponent], imports: [CommonModule], exports: [CircleProgressComponent] });
+NgCircleProgressModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.3.0", ngImport: i0, type: NgCircleProgressModule, imports: [[
             CommonModule
         ]] });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgCircleProgressModule, [{
-        type: NgModule,
-        args: [{
-                declarations: [CircleProgressComponent],
-                imports: [
-                    CommonModule
-                ],
-                exports: [CircleProgressComponent]
-            }]
-    }], null, null); })();
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(NgCircleProgressModule, { declarations: [CircleProgressComponent], imports: [CommonModule], exports: [CircleProgressComponent] }); })();
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmctY2lyY2xlLXByb2dyZXNzLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL25nLWNpcmNsZS1wcm9ncmVzcy9zcmMvbGliL25nLWNpcmNsZS1wcm9ncmVzcy5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBdUIsTUFBTSxlQUFlLENBQUM7QUFDOUQsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSx1QkFBdUIsRUFBa0MscUJBQXFCLEVBQUUsTUFBTSxnQ0FBZ0MsQ0FBQzs7QUFVaEksTUFBTSxPQUFPLHNCQUFzQjtJQUNqQyxNQUFNLENBQUMsT0FBTyxDQUFDLFVBQTBDLEVBQUU7UUFDekQsT0FBTztZQUNMLFFBQVEsRUFBRSxzQkFBc0I7WUFDaEMsU0FBUyxFQUFFO2dCQUNULEVBQUUsT0FBTyxFQUFFLHFCQUFxQixFQUFFLFFBQVEsRUFBRSxPQUFPLEVBQUU7YUFDdEQ7U0FDRixDQUFDO0lBQ0osQ0FBQzs7NEZBUlUsc0JBQXNCO3dFQUF0QixzQkFBc0I7NEVBTHhCO1lBQ1AsWUFBWTtTQUNiO3VGQUdVLHNCQUFzQjtjQVBsQyxRQUFRO2VBQUM7Z0JBQ1IsWUFBWSxFQUFFLENBQUMsdUJBQXVCLENBQUM7Z0JBQ3ZDLE9BQU8sRUFBRTtvQkFDUCxZQUFZO2lCQUNiO2dCQUNELE9BQU8sRUFBRSxDQUFDLHVCQUF1QixDQUFDO2FBQ25DOzt3RkFDWSxzQkFBc0IsbUJBTmxCLHVCQUF1QixhQUVwQyxZQUFZLGFBRUosdUJBQXVCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUsIE1vZHVsZVdpdGhQcm92aWRlcnMgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBDaXJjbGVQcm9ncmVzc0NvbXBvbmVudCwgQ2lyY2xlUHJvZ3Jlc3NPcHRpb25zSW50ZXJmYWNlLCBDaXJjbGVQcm9ncmVzc09wdGlvbnMgfSBmcm9tICcuL25nLWNpcmNsZS1wcm9ncmVzcy5jb21wb25lbnQnO1xuXG5cbkBOZ01vZHVsZSh7XG4gIGRlY2xhcmF0aW9uczogW0NpcmNsZVByb2dyZXNzQ29tcG9uZW50XSxcbiAgaW1wb3J0czogW1xuICAgIENvbW1vbk1vZHVsZVxuICBdLFxuICBleHBvcnRzOiBbQ2lyY2xlUHJvZ3Jlc3NDb21wb25lbnRdXG59KVxuZXhwb3J0IGNsYXNzIE5nQ2lyY2xlUHJvZ3Jlc3NNb2R1bGUge1xuICBzdGF0aWMgZm9yUm9vdChvcHRpb25zOiBDaXJjbGVQcm9ncmVzc09wdGlvbnNJbnRlcmZhY2UgPSB7fSk6IE1vZHVsZVdpdGhQcm92aWRlcnM8TmdDaXJjbGVQcm9ncmVzc01vZHVsZT4ge1xuICAgIHJldHVybiB7XG4gICAgICBuZ01vZHVsZTogTmdDaXJjbGVQcm9ncmVzc01vZHVsZSxcbiAgICAgIHByb3ZpZGVyczogW1xuICAgICAgICB7IHByb3ZpZGU6IENpcmNsZVByb2dyZXNzT3B0aW9ucywgdXNlVmFsdWU6IG9wdGlvbnMgfVxuICAgICAgXVxuICAgIH07XG4gIH1cbn1cbiJdfQ==
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.0", ngImport: i0, type: NgCircleProgressModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [CircleProgressComponent],
+                    imports: [
+                        CommonModule
+                    ],
+                    exports: [CircleProgressComponent]
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmctY2lyY2xlLXByb2dyZXNzLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL25nLWNpcmNsZS1wcm9ncmVzcy9zcmMvbGliL25nLWNpcmNsZS1wcm9ncmVzcy5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBdUIsTUFBTSxlQUFlLENBQUM7QUFDOUQsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSx1QkFBdUIsRUFBa0MscUJBQXFCLEVBQUUsTUFBTSxnQ0FBZ0MsQ0FBQzs7QUFVaEksTUFBTSxPQUFPLHNCQUFzQjtJQUNqQyxNQUFNLENBQUMsT0FBTyxDQUFDLFVBQTBDLEVBQUU7UUFDekQsT0FBTztZQUNMLFFBQVEsRUFBRSxzQkFBc0I7WUFDaEMsU0FBUyxFQUFFO2dCQUNULEVBQUUsT0FBTyxFQUFFLHFCQUFxQixFQUFFLFFBQVEsRUFBRSxPQUFPLEVBQUU7YUFDdEQ7U0FDRixDQUFDO0lBQ0osQ0FBQzs7bUhBUlUsc0JBQXNCO29IQUF0QixzQkFBc0IsaUJBTmxCLHVCQUF1QixhQUVwQyxZQUFZLGFBRUosdUJBQXVCO29IQUV0QixzQkFBc0IsWUFMeEI7WUFDUCxZQUFZO1NBQ2I7MkZBR1Usc0JBQXNCO2tCQVBsQyxRQUFRO21CQUFDO29CQUNSLFlBQVksRUFBRSxDQUFDLHVCQUF1QixDQUFDO29CQUN2QyxPQUFPLEVBQUU7d0JBQ1AsWUFBWTtxQkFDYjtvQkFDRCxPQUFPLEVBQUUsQ0FBQyx1QkFBdUIsQ0FBQztpQkFDbkMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSwgTW9kdWxlV2l0aFByb3ZpZGVycyB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IENpcmNsZVByb2dyZXNzQ29tcG9uZW50LCBDaXJjbGVQcm9ncmVzc09wdGlvbnNJbnRlcmZhY2UsIENpcmNsZVByb2dyZXNzT3B0aW9ucyB9IGZyb20gJy4vbmctY2lyY2xlLXByb2dyZXNzLmNvbXBvbmVudCc7XG5cblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbQ2lyY2xlUHJvZ3Jlc3NDb21wb25lbnRdLFxuICBpbXBvcnRzOiBbXG4gICAgQ29tbW9uTW9kdWxlXG4gIF0sXG4gIGV4cG9ydHM6IFtDaXJjbGVQcm9ncmVzc0NvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgTmdDaXJjbGVQcm9ncmVzc01vZHVsZSB7XG4gIHN0YXRpYyBmb3JSb290KG9wdGlvbnM6IENpcmNsZVByb2dyZXNzT3B0aW9uc0ludGVyZmFjZSA9IHt9KTogTW9kdWxlV2l0aFByb3ZpZGVyczxOZ0NpcmNsZVByb2dyZXNzTW9kdWxlPiB7XG4gICAgcmV0dXJuIHtcbiAgICAgIG5nTW9kdWxlOiBOZ0NpcmNsZVByb2dyZXNzTW9kdWxlLFxuICAgICAgcHJvdmlkZXJzOiBbXG4gICAgICAgIHsgcHJvdmlkZTogQ2lyY2xlUHJvZ3Jlc3NPcHRpb25zLCB1c2VWYWx1ZTogb3B0aW9ucyB9XG4gICAgICBdXG4gICAgfTtcbiAgfVxufVxuIl19

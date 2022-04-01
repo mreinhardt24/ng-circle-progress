@@ -9,4 +9,3 @@ export declare class NgCircleProgressModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<NgCircleProgressModule, [typeof i1.CircleProgressComponent], [typeof i2.CommonModule], [typeof i1.CircleProgressComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<NgCircleProgressModule>;
 }
-//# sourceMappingURL=ng-circle-progress.module.d.ts.map
